@@ -58,7 +58,6 @@ public class BST {
         return curr.getItem();
     }
 
-
     public Integer findMin(Node curr) {
         while (curr.getLeftChild() != null) {
             curr = curr.getLeftChild();
